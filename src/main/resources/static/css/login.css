@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #bb8fce, #76d7c4);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0.5%;
+    font-weight: bold;
+    font-family: Arial;
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 1;
+    top: 0;
+}
+
+nav h1 
+{
+    color: white;
+    font-size: 35px; 
+    text-shadow: none;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+section {
+    overflow-y: scroll;
+    position: fixed;
+    background-color: appworkspace;
+    top: 93px;
+    bottom: 20px;
+    width: 100%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 300px; 
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+div.username, div.contrasena {
+    margin-bottom: 20px;
+}
+
+div.username input, div.contrasena input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+div.username label, div.contrasena label {
+    display: block;
+    color: #333;
+}
+
+div.recordar a {
+    color: #0077FF;
+}
+
+input[type="submit"] {
+    background-color: #0077FF;
+    color: white;
+    border: none;
+    padding: 10px 90px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.registrarse a {
+    color: #0077FF;
+}
